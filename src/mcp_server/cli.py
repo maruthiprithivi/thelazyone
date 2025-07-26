@@ -17,8 +17,8 @@ from .config import load_config, ServerConfig
 def create_parser() -> argparse.ArgumentParser:
     """Create the command line argument parser."""
     parser = argparse.ArgumentParser(
-        prog="claude-code-mcp-server",
-        description="Claude Code MCP Server - Comprehensive coding assistance via MCP",
+        prog="thelazyone",
+        description="The Lazy One - AI-powered MCP server for automated code development",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -32,7 +32,7 @@ Examples:
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s 0.1.0"
+        version="%(prog)s 0.0.1"
     )
     
     parser.add_argument(

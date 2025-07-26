@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/thelazyone
+      url: https://pypi.org/p/the-lazy-one
     
     steps:
       - name: Checkout code
@@ -85,7 +85,7 @@ jobs:
             ## Installation
             
             ```bash
-            pip install claude-code-mcp-server
+            pip install thelazyone
             ```
             
             ## Docker

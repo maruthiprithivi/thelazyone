@@ -22,12 +22,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: ["3.11", "3.12", "3.13"]
     
-    services:
-      docker:
-        image: docker:24-dind
-        options: --privileged
-        ports:
-          - 2375:2375
+    # Docker is available by default on GitHub Actions runners
     
     steps:
       - name: Checkout code
@@ -47,18 +42,19 @@ jobs:
           sudo apt-get install -y docker.io
           sudo systemctl start docker
           sudo systemctl enable docker
-          sudo usermod -aG docker $USER
+          sudo usermod -aG docker $USER || true
       
       - name: Install system dependencies (macOS)
         if: matrix.os == 'macos-latest'
         run: |
-          brew install docker
-          open -a Docker
+          # Docker is pre-installed on GitHub Actions macOS runners
+          echo "Docker available on macOS"
       
       - name: Install system dependencies (Windows)
         if: matrix.os == 'windows-latest'
         run: |
-          choco install docker-desktop
+          # Docker is pre-installed on GitHub Actions Windows runners
+          echo "Docker available on Windows"
       
       - name: Install Python dependencies
         run: |
