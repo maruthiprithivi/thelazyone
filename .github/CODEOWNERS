@@ -1,0 +1,19 @@
+# Global owners
+* @maruthiprithivi
+
+# Source code owners
+/src/ @maruthiprithivi
+
+# Documentation owners
+/docs/ @maruthiprithivi
+*.md @maruthiprithivi
+
+# Configuration owners
+/.github/ @maruthiprithivi
+*.toml @maruthiprithivi
+*.yaml @maruthiprithivi
+*.yml @maruthiprithivi
+
+# Security-related files
+/security/ @maruthiprithivi
+.env* @maruthiprithivi
