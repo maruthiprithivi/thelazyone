@@ -1,6 +1,6 @@
-# Contributing to Claude Code MCP Server 🤝
+# Contributing to The Lazy One 🤝
 
-Thank you for your interest in contributing to the Claude Code MCP Server! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to The Lazy One! This document provides guidelines and information for contributors.
 
 ## 📋 Table of Contents
 
@@ -399,6 +399,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Thank you for contributing to the Claude Code MCP Server!** 🚀
+**Thank you for contributing to The Lazy One!** 🚀
 
 For questions or suggestions, please [open an issue](https://github.com/maruthiprithivi/thelazyone/issues/new) or start a [discussion](https://github.com/maruthiprithivi/thelazyone/discussions).

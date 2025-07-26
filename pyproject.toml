@@ -3,13 +3,13 @@ requires = ["setuptools>=70", "wheel", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "claude-code-mcp-server"
+name = "the-lazy-one"
 dynamic = ["version"]
 description = "AI-powered MCP server for automated code development with Claude Code integration"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Maruthi Prithivi", email = "maruthi@example.com"}
+    {name = "Maruthi Prithivi", email = "maruthiprithivi@gmail.com"}
 ]
 keywords = ["mcp", "ai", "claude", "code-generation", "automation", "moonshot", "openai"]
 classifiers = [
@@ -70,8 +70,8 @@ Changelog = "https://github.com/maruthiprithivi/thelazyone/blob/main/CHANGELOG.m
 "Discussions" = "https://github.com/maruthiprithivi/thelazyone/discussions"
 
 [project.scripts]
-claude-mcp = "mcp_server.cli:main"
-claude-code-server = "mcp_server.server:main"
+thelazyone = "mcp_server.cli:main"
+thelazyone-server = "mcp_server.server:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implemented CodeQL security analysis
 - Enhanced Docker security configuration
 
-## [1.0.0] - 2024-07-26
+## [0.0.1] - 2024-07-26
 
 ### Added
 - **AI-powered MCP server** for automated code development
@@ -72,5 +72,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Audit logging**: Complete operation tracking
 - **Vulnerability scanning**: Trivy and CodeQL integration
 
-[Unreleased]: https://github.com/maruthiprithivi/thelazyone/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/maruthiprithivi/thelazyone/releases/tag/v1.0.0
+[Unreleased]: https://github.com/maruthiprithivi/thelazyone/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/maruthiprithivi/thelazyone/releases/tag/v0.0.1

@@ -1,8 +1,8 @@
-# Claude Code MCP Server 🤖
+# The Lazy One 🤖
 
 [![CI](https://github.com/maruthiprithivi/thelazyone/workflows/CI%20%26%20CD/badge.svg)](https://github.com/maruthiprithivi/thelazyone/actions)
-[![PyPI version](https://badge.fury.io/py/claude-code-mcp-server.svg)](https://badge.fury.io/py/claude-code-mcp-server)
-[![Python versions](https://img.shields.io/pypi/pyversions/claude-code-mcp-server.svg)](https://pypi.org/project/claude-code-mcp-server/)
+[![PyPI version](https://badge.fury.io/py/thelazyone.svg)](https://badge.fury.io/py/thelazyone)
+[![Python versions](https://img.shields.io/pypi/pyversions/thelazyone.svg)](https://pypi.org/project/thelazyone/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **AI-powered MCP server for automated code development with Claude Code integration**
@@ -22,7 +22,7 @@
 ### From PyPI (Recommended)
 
 ```bash
-pip install claude-code-mcp-server
+pip install thelazyone
 ```
 
 ### From Source
@@ -36,8 +36,8 @@ pip install -e ".[dev]"
 ### Using Docker
 
 ```bash
-docker pull ghcr.io/maruthiprithivi/claude-code-mcp-server:latest
-docker run -p 8000:8000 ghcr.io/maruthiprithivi/claude-code-mcp-server:latest
+docker pull ghcr.io/maruthiprithivi/thelazyone:latest
+docker run -p 8000:8000 ghcr.io/maruthiprithivi/thelazyone:latest
 ```
 
 ## 🔧 Quick Start
@@ -61,13 +61,13 @@ MCP_STATE_DIRECTORY=./state
 
 ```bash
 # Using CLI
-claude-mcp serve
+thelazyone serve
 
 # Using Docker
 docker run -p 8000:8000 \
   -e OPENAI_API_KEY=your_key \
   -e MOONSHOT_API_KEY=your_key \
-  ghcr.io/maruthiprithivi/claude-code-mcp-server:latest
+  ghcr.io/maruthiprithivi/thelazyone:latest
 ```
 
 ### 3. Connect with Claude Code
